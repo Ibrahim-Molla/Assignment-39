@@ -1,0 +1,125 @@
+@media (max-width:1300px) {
+    .fixed-width {
+        padding: 0 50px;
+    }
+}
+
+/* main style */
+.header-right span {
+    display: none;
+}
+
+@media (max-width:1050px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-right ul{
+        text-align: center;
+    }
+    .header-left img {
+        width: 30%;
+    }
+}
+@media (max-width:992px) {
+    .services-item {
+        float: left;
+        width: 46.33%;
+        padding: 26px 10px;
+        box-sizing: border-box;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width:768px) {
+    .header-right ul li a {
+        padding: 0 10px;
+    }
+    .banner-caption h1 {
+        font-size: 29px;
+    }
+    .banner-caption h2 {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 122px;
+    }
+    .about h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .about p {
+        max-width: 583px;
+        margin: auto;
+        font-size: 15px;
+    }
+    .blog-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-right {
+        width: 100%;
+    }
+    .blog-right h2{
+        margin-bottom: 12px;
+    }
+}
+@media (max-width:576px) {
+    .header-right span {
+        font-size: 40px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        text-align: center;
+    }
+    .header-right ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-left img {
+        width: 43%;
+    }
+    .banner {
+        padding:100px 0;
+    }
+    .services-item {
+        float: left;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .contact-item {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    .icon {
+        padding: 14px 0;
+    }
+}
+@media (max-width:470px) {
+    .banner-caption h1 {
+        font-size: 24px;
+    }
+    .banner-caption h2 {
+        margin-bottom: 23px;
+        font-size: 14px;
+    }
+    .about p {
+        margin-bottom: -25px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .services-item {
+        margin-bottom: 10%;
+    }
+    .header-left img {
+        width: 59%;
+    }
+}
